@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
 body {
-    background-color: cadetblue;
+    background: url('https://cdn3.bestreviews.com/images/v4desktop/chubby/32c77370f3a81b4bb9ccfb539c881d0e.jpg');
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -13,6 +15,8 @@ header {
 }
 
 .container{
+    font-family: 'Monserrat';
+    font-size: 22px;
     width: 600px;
     height: 400px;
     margin: auto;
@@ -20,11 +24,29 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 5px 10px #888;
+}
+.container button {
+    background-color: #000;
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.container input {
+    padding: 5px;
 }
 
 .search {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.search label {
+    margin-bottom: 5px;
+}
+.search input {
+    margin-bottom: 10px;
 }
 
 .loading {
