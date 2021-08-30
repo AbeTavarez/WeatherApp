@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="init.js" defer></script>
     <script src="WeatherData.js"></script>
     <script src="app.js" defer></script>
@@ -14,17 +15,17 @@
         <h1>Weather App</h1>
     </header>
 
-    <div class="main">
+    <div class="container">
         <!-- Search Weather -->
-        <div class="" id="search">
+        <div class="search" id="search">
             <label for="city">Enter City Name</label>
             <input type="text" name="" id="city">
             <button>Get Weather</button>
         </div>
         <!-- Loading -->
-        <div class="" id="loading">Loading...</div>
+        <div class="loading" id="loading">Loading...</div>
         <!-- Results -->
-        <div class="" id="weather">
+        <div class="weatherbox" id="weather">
             <h2 id="weatherCity">City Name</h2>
 
             <div class="" id="weatherDescription">Weather Description</div>

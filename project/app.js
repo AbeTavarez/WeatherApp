@@ -1,5 +1,5 @@
 console.log(`running script...`);
-// require(`dotenv`).config();
+let dotenv = require(`dotenv`).config();
 
 //* =============== VARIABLES
 
@@ -35,7 +35,8 @@ const searchWeather = () => {
     }
     // ================ HTTP Request
     const http = new XMLHttpRequest();
-    const apiKey =  process.env.OPEN_WEATHER_API_KEY;
+    // const apiKey =  process.env.OPEN_WEATHER_API_KEY;
+    const apiKey =  `66c291ff282a6dc5ffcf477b92a78184`;
     const url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${apiKey}`;
     const method = 'GET';
     // ========= connection
