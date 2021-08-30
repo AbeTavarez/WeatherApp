@@ -1,5 +1,4 @@
 console.log(`running script...`);
-// require(`dotenv`).config();
 
 //* =============== VARIABLES
 
