@@ -6,6 +6,9 @@
 
 body {
     background: url('https://cdn3.bestreviews.com/images/v4desktop/chubby/32c77370f3a81b4bb9ccfb539c881d0e.jpg');
+    background-color: deepskyblue;
+    background-repeat: no-repeat;
+    background-size:cover;
     font-family: Arial, Helvetica, sans-serif;
 }
 
