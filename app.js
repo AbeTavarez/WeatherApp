@@ -66,6 +66,7 @@ const updateWeather = weatherData => {
     // UI
     loading.style.display = 'none';
     weatherBox.style.display = 'block';
+    city.value = '';
 };
 
 
