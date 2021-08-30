@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+header {
+    padding: 10px 20px 40px 20px;
+    color: #fff;
+}
+
+.container{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 10px #888;
+}
+
+.search {
+    /* background-color: cyan; */
+    padding: 20px;
+}
+
+.loading {
+    /* background-color: darkblue; */
+    padding: 20px;
+}
+
+.weatherbox {
+    background-color: aqua;
+    padding: 40px;
+}
