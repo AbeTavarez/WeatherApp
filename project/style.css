@@ -24,16 +24,13 @@ header {
 }
 
 .search {
-    /* background-color: cyan; */
     padding: 20px;
 }
 
 .loading {
-    /* background-color: darkblue; */
     padding: 20px;
 }
 
 .weatherbox {
-    background-color: aqua;
     padding: 40px;
 }
